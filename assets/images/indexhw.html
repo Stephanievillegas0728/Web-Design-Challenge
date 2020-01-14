@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="if=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="box.css">
+
+    <style>
+    .topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+</style>
+
+</head>
+</html>
+<body>
+    <div class="topnav">
+        <a href="data.html">Data</a>
+        <a href="Comparison.html">Comparisons</a>
+        <a href="Plots.html">Plots</a>
+        <a class="active" href="indexhw.html">Home</a>
+    </div>
+
+      <div class="container">
+        <h1 style="color: teal;">Summary: Latitude vs. X</h1>
+        <hr>
+        <img src="Fig1.png" alt="img" width="100px" height="100px" align="left" />
+        <p style="color: grey;"> The Purpose of this project was to analyze how weather changes as you get closer to the equater
+        to acomplish this analysis, we first pulled data from the openweathermap API to assemble a dataset on over 500 cities.</p>
+        &nbsp;
+        <p style="color: gray;">After assembling the dataset, we used matplotlib to plot variouse aspects of the weather vs Latitude.
+        Factors we looked at included: tempature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well
+      as explanations and discriptions of any trends and correlations witnessed.</p>
+  
+      </div>
+      
+
+</body>
